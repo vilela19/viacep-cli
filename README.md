@@ -27,6 +27,7 @@ Replace ``<zip-code>`` with the desired zip code for which you want to retrieve 
 
 * Node.js
 * Axios library (automatically installed during the application setup)
+* Gluegun
 
 ## ViaCep API Integration
 The application utilizes the ViaCep API to retrieve location details based on the provided zip code. It handles API responses, checking for errors and displaying appropriate messages.

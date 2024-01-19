@@ -11,9 +11,9 @@ This command-line interface (CLI) application, named "search," is developed usin
 
 To utilize the "search" command, run the following:
 
-`cmd
+```bash
 cep search <zip-code>
-`
+```
 
 Replace `<zip-code>` with the desired zip code for which you want to retrieve location details.
 

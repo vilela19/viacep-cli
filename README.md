@@ -1,4 +1,4 @@
-# ViaCep Search CLI
+# ViaCep CLI
 
 ## Description
 This command-line interface (CLI) application, named "search," is developed using the Gluegun CLI framework. The primary purpose of this application is to perform a search for location details based on a given zip code using the ViaCep API.

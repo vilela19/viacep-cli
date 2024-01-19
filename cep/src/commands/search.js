@@ -30,7 +30,7 @@ module.exports = {
       }
 
       const response = await axios.get(`https://viacep.com.br/ws/${cep}/json/`)
-      const data = await response.data
+      const data = response.data
 
       if ('erro' in data) {
         warning('The zip code entered is valid but non-existent')

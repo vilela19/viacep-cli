@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 const axios = require('axios')
+const { prompt } = require('gluegun/prompt')
 
 module.exports = {
   name: 'search',
@@ -12,13 +13,24 @@ module.exports = {
       print: { error, table, warning },
     } = toolbox
 
-    if (!parameters.first) {
-      error('Enter a zip code to perform a search')
-      return
+    let cep = parameters.first
+
+    if (!cep) {
+      const result = await prompt.ask({
+        type: 'input',
+        name: 'cep',
+        message: 'What is the zip code?',
+      })
+      if (result && result.cep) {
+        cep = result.cep
+      } else {
+        error('Enter a zip code to perform a search')
+        return
+      }
     }
 
     // variável "cep" somente com dígitos.
-    let cep = parameters.first.toString().replace(/\D/g, '')
+    cep = cep.toString().replace(/\D/g, '')
 
     if (cep != '') {
       //Expressão regular para validar o CEP.

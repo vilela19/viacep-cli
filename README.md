@@ -15,13 +15,13 @@ buscar, b `<código postal>`
 busca-local, bl
 
 > [!IMPORTANT]
-> Quando o comando 'busca-local' for executado, o usuário será solicitado a fornecer os três parâmetros obrigatórios
+> Quando o comando 'busca-local' for executado, o usuário deverá fornecer três parâmetros: UF, Cidade e Rua.
 
 ## Detalhes dos Comandos
 | Nome   | Alias | Descrição                                                           |
 | ------ | ----- | ------------------------------------------------------------------- |
 | buscar | b     | Este comando realiza uma busca por um CEP usando a API ViaCep.      |
-| busca-local | bl     | Este comando realiza uma busca por um CEP utilizando três parâmetros obrigatórios (UF, Cidade e Rua) através da API ViaCepViaCep.      |
+| busca-local | bl     | Este comando realiza uma busca por um CEP utilizando três parâmetros obrigatórios (UF, Cidade e Rua) através da API ViaCep.      |
 
 ## Integração API ViaCep
 

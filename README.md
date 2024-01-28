@@ -12,14 +12,14 @@ cep `<opções>`
 
 ### Buscar
 
-buscar, b `<código postal>`
+`buscar, b <código postal>`
 
 #### Saída
 ![foto-1](https://github.com/vilela19/viacep-cli/assets/148297412/61a924ea-9914-483b-8975-6c8a949e5ff0)
 
 ### Busca local
 
-busca-local, bl
+`busca-local, bl`
 
 #### Saída
 ![foto-3](https://github.com/vilela19/viacep-cli/assets/148297412/5d24e4cc-42e2-4f7c-bec9-bc6a0ee78174)

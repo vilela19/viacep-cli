@@ -1,8 +1,8 @@
-#ViaCep CLI
+# ViaCep CLI
 
 ## Descrição
 
-Este aplicativo de interface de linha de comando (CLI), foi desenvolvido usando o Gluegun. O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP usando a API ViaCep.
+O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP usando a API ViaCep.
 
 ## Uso
 

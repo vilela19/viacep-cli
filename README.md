@@ -1,8 +1,8 @@
-#ViaCep CLI
+# ViaCep CLI
 
 ## Descrição
 
-Este aplicativo de interface de linha de comando (CLI), foi desenvolvido usando o Gluegun. O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP usando a API ViaCep.
+O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP ou endereço usando a API ViaCep.
 
 ## Uso
 
@@ -15,7 +15,7 @@ buscar, b `<código postal>`
 busca-local, bl
 
 > [!IMPORTANT]
-> Quando o comando 'busca-local' for executado, o usuário deverá fornecer três parâmetros: UF, Cidade e Rua.
+> Quando o comando 'busca-local' for executado, o usuário deverá fornecer os três parâmetros (UF, Cidade e Rua)
 
 ## Detalhes dos Comandos
 | Nome   | Alias | Descrição                                                           |

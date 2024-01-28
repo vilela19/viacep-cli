@@ -14,7 +14,7 @@ buscar, b `<código postal>`
 
 busca-local, bl
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > ao executar o comando busca-local, será perguntado ao usuário os 3 três parâmetros obrigatórios.
 
 ## Detalhes dos Comandos

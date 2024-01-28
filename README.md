@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP usando a API ViaCep.
+O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP ou endereço usando a API ViaCep.
 
 ## Uso
 

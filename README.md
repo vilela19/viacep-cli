@@ -1,8 +1,8 @@
-# ViaCep CLI
+# ViaCep CLI 🇧🇷
 
 ## Descrição
 
-O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP ou endereço usando a API ViaCep.
+Esta Interface de Linha de Comando (CLI) permite aos usuários acessar detalhes de localizações através da consulta de CEPs ou endereços específicos, utilizando a API ViaCep.
 
 ## Uso
 

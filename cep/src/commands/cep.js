@@ -5,7 +5,9 @@ Uso:
       cep <opções>
 
 Opções:
-      search, s <código postal>
+      buscar, b <código postal>
+      busca-local, bl
+          > Quando o comando 'busca-local' for executado, o usuário deverá fornecer três parâmetros: UF, Cidade e Rua.
 `
 
 module.exports = {

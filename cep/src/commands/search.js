@@ -5,8 +5,7 @@ const { prompt } = require('gluegun/prompt')
 module.exports = {
   name: 'search',
   alias: ['s'],
-  description:
-    'This command performs a search for a zip code using the ViaCep API',
+  description: 'Este comando realiza uma busca por um CEP usando a API ViaCep',
   run: async (toolbox) => {
     const {
       parameters,
@@ -19,12 +18,12 @@ module.exports = {
       const result = await prompt.ask({
         type: 'input',
         name: 'cep',
-        message: 'What is the zip code?',
+        message: 'Qual é o código postal?',
       })
       if (result && result.cep) {
         cep = result.cep
       } else {
-        error('Enter a zip code to perform a search')
+        error('Digite um CEP para realizar uma pesquisa')
         return
       }
     }
@@ -37,7 +36,7 @@ module.exports = {
       let validacep = /^[0-9]{8}$/
 
       if (!validacep.test(cep)) {
-        error('Enter a valid zip code to perform the search')
+        error('Digite um CEP válido para realizar a pesquisa')
         return
       }
 
@@ -45,7 +44,7 @@ module.exports = {
       const data = response.data
 
       if ('erro' in data) {
-        warning('The zip code entered is valid but non-existent')
+        warning('O CEP inserido é válido, mas inexistente')
         return
       }
 
@@ -60,7 +59,7 @@ module.exports = {
         }
       )
     } else {
-      error('Enter a valid zip code to perform the search')
+      error('Digite um CEP válido para realizar a pesquisa')
     }
   },
 }

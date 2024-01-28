@@ -15,7 +15,7 @@ buscar, b `<código postal>`
 busca-local, bl
 
 > [!IMPORTANT]
-> Quando o comando 'busca-local' for executado, o usuário será solicitado a fornecer os três parâmetros obrigatórios
+> Quando o comando 'busca-local' for executado, o usuário deverá fornecer os três parâmetros (UF, Cidade e Rua)
 
 ## Detalhes dos Comandos
 | Nome   | Alias | Descrição                                                           |

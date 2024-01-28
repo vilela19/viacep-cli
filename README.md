@@ -6,19 +6,22 @@ Este aplicativo de interface de linha de comando (CLI), foi desenvolvido usando 
 
 ## Uso
 
-Para utilizar o comando "search", execute o seguinte:
+cep `<opções>`
 
-```bash
-cep search <cep>
-```
+## Opções:
 
-Substitua `<cep>` pelo cep desejado para o qual você deseja recuperar os detalhes do local.
+buscar, b `<código postal>`
 
-## Detalhes do Comando
+busca-local, bl
 
+> [!IMPORTANT]
+> ao executar o comando busca-local, será perguntado ao usuário os 3 três parâmetros obrigatórios.
+
+## Detalhes dos Comandos
 | Nome   | Alias | Descrição                                                           |
 | ------ | ----- | ------------------------------------------------------------------- |
-| search | s     | Este comando realiza uma busca por um CEP usando a API ViaCep.      |
+| buscar | b     | Este comando realiza uma busca por um CEP usando a API ViaCep.      |
+| busca-local | bl     | Este comando realiza uma busca por um CEP utilizando três parâmetros obrigatórios (UF, Cidade e Rua) através da API ViaCepViaCep.      |
 
 ## Integração API ViaCep
 

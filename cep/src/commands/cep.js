@@ -1,11 +1,11 @@
 const help_message = `
-CLI application enables location details retrieval based on zip codes using the ViaCep API.
+O aplicativo CLI permite a recuperação de detalhes de localização com base em códigos postais usando a API ViaCep.
 
-Usage:
-      cep <options>
+Uso:
+      cep <opções>
 
-Options:
-      search, s <zip-code>
+Opções:
+      search, s <código postal>
 `
 
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
     } = toolbox
 
     if (options.h || first === 'help' || Object.keys(options).length === 0) {
-      highlight('Welcome to ViaCep CLI')
+      highlight('Bem-vindo(a) ao ViaCep CLI')
       info(help_message)
     }
   },

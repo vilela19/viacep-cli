@@ -10,18 +10,27 @@ cep `<opções>`
 
 ## Opções:
 
+### Buscar
+
 buscar, b `<código postal>`
+
+#### Saída
+![foto-1](https://github.com/vilela19/viacep-cli/assets/148297412/61a924ea-9914-483b-8975-6c8a949e5ff0)
+
+### Busca local
 
 busca-local, bl
 
-> [!IMPORTANT]
-> Quando o comando 'busca-local' for executado, o usuário deverá fornecer os três parâmetros (UF, Cidade e Rua)
+#### Saída
+![foto-3](https://github.com/vilela19/viacep-cli/assets/148297412/5d24e4cc-42e2-4f7c-bec9-bc6a0ee78174)
+
 
 ## Detalhes dos Comandos
 | Nome   | Alias | Descrição                                                           |
 | ------ | ----- | ------------------------------------------------------------------- |
 | buscar | b     | Este comando realiza uma busca por um CEP usando a API ViaCep.      |
 | busca-local | bl     | Este comando realiza uma busca por um CEP utilizando três parâmetros obrigatórios (UF, Cidade e Rua) através da API ViaCep.      |
+| help | --h, help     | Este comando exibe informações detalhadas sobre os comandos da cli.     |
 
 ## Integração API ViaCep
 

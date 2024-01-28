@@ -1,25 +1,25 @@
-# ViaCep CLI
+#ViaCep CLI
 
-## Description
+## Descrição
 
-This command-line interface (CLI) application, named "search," is developed using the Gluegun CLI framework. The primary purpose of this application is to perform a search for location details based on a given zip code using the ViaCep API.
+Este aplicativo de interface de linha de comando (CLI), foi desenvolvido usando o Gluegun. O objetivo principal deste aplicativo é realizar uma pesquisa de detalhes de localização com base em um determinado CEP usando a API ViaCep.
 
-## Usage
+## Uso
 
-To utilize the "search" command, run the following:
+Para utilizar o comando "search", execute o seguinte:
 
 ```bash
-cep search <zip-code>
+cep search <cep>
 ```
 
-Replace `<zip-code>` with the desired zip code for which you want to retrieve location details.
+Substitua `<cep>` pelo cep desejado para o qual você deseja recuperar os detalhes do local.
 
-## Command Details
+## Detalhes do Comando
 
-| Name   | Alias | Description                                                         |
+| Nome   | Alias | Descrição                                                           |
 | ------ | ----- | ------------------------------------------------------------------- |
-| search | s     | This command performs a search for a zip code using the ViaCep API. |
+| search | s     | Este comando realiza uma busca por um CEP usando a API ViaCep.      |
 
-## ViaCep API Integration
+## Integração API ViaCep
 
-The application utilizes the ViaCep API to retrieve location details based on the provided zip code. It handles API responses, checking for errors and displaying appropriate messages.
+O aplicativo utiliza a API ViaCep para recuperar detalhes de localização com base no CEP fornecido. Ele lida com as respostas da API, verificando erros e exibindo mensagens apropriadas.

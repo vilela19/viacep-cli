@@ -35,4 +35,3 @@ cep `<opções>`
 ## Integração API ViaCep
 
 O aplicativo utiliza a API ViaCep para recuperar detalhes de localização com base no CEP fornecido. Ele lida com as respostas da API, verificando erros e exibindo mensagens apropriadas.
-

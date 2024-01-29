@@ -38,7 +38,7 @@ _O comando sem argumentos ou com a opção -h exibe a mensagem de ajuda._
 
 ## Integração API ViaCep
 
-O aplicativo utiliza a API ViaCep para recuperar detalhes de localização com base no CEP fornecido. Ele lida com as respostas da API, verificando erros e exibindo mensagens apropriadas.
+> O aplicativo utiliza a API ViaCep para recuperar detalhes de localização com base no CEP fornecido. Ele lida com as respostas da API, verificando erros e exibindo mensagens apropriadas.
 
 ## Contribuindo
-Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues ou enviar pull requests. 
+> Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues ou enviar pull requests. 

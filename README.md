@@ -1,38 +1,40 @@
 # ViaCep CLI 🇧🇷
+> Este repositório contém uma Interface de Linha de Comando (CLI) que permite aos usuários acessar detalhes de localizações através da consulta de CEPs ou endereços específicos, utilizando a API ViaCep.
 
-## Descrição
+## Comandos Disponíveis
 
-Esta Interface de Linha de Comando (CLI) permite aos usuários acessar detalhes de localizações através da consulta de CEPs ou endereços específicos, utilizando a API ViaCep.
+###  Comando "buscar"
+> Este comando realiza uma busca por um CEP usando a API ViaCep.
 
-## Uso
+**Uso:**
 
-cep `<opções>`
+`
+cep buscar <código postal>
+`
 
-## Opções:
+_Se nenhum código postal for fornecido como argumento, o usuário será solicitado a inserir o código postal durante a execução do comando._
 
-### Buscar
+### Comando "busca-local"
+> Este comando realiza uma busca por um CEP utilizando três parâmetros obrigatórios (UF, Cidade e Rua) através da API ViaCep.
 
-`buscar, b <código postal>`
+**Uso:**
 
-#### Saída
-![foto-1](https://github.com/vilela19/viacep-cli/assets/148297412/61a924ea-9914-483b-8975-6c8a949e5ff0)
+`
+cep busca-local
+`
 
-### Busca local
+_Durante a execução do comando, o usuário será solicitado a fornecer a UF, Cidade e Rua._
 
-`busca-local, bl`
+### Comando "cep"
+> O comando "cep" fornece uma visão geral do aplicativo CLI e fornece informações sobre como usar os comandos disponíveis.
 
-#### Saída
-![foto-3](https://github.com/vilela19/viacep-cli/assets/148297412/5d24e4cc-42e2-4f7c-bec9-bc6a0ee78174)
+**Uso:**
 
+`
+cep 
+`
 
-## Detalhes dos Comandos
-| Nome   | Alias | Descrição                                                           |
-| ------ | ----- | ------------------------------------------------------------------- |
-| buscar | b     | Este comando realiza uma busca por um CEP usando a API ViaCep.      |
-| busca-local | bl     | Este comando realiza uma busca por um CEP utilizando três parâmetros obrigatórios (UF, Cidade e Rua) através da API ViaCep.      |
-| help | --h, help     | Este comando exibe informações detalhadas sobre os comandos da cli.     |
+_O comando sem argumentos ou com a opção -h exibe a mensagem de ajuda._
 
-## Integração API ViaCep
-
-O aplicativo utiliza a API ViaCep para recuperar detalhes de localização com base no CEP fornecido. Ele lida com as respostas da API, verificando erros e exibindo mensagens apropriadas.
-
+## Contribuindo
+Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues ou enviar pull requests. 
